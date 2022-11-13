@@ -1,0 +1,88 @@
+Welcome to JavaScript
+JavaScript Codding Project
+<p>1. Add two Numbers: You are provided with two numbers A and B. Your task is to add these two numbers</p>
+      
+       <pre text
+         const AddTwoNumbers = (a,b) => {
+             return a+b;
+            };
+        </pre>
+<P>2. Find if the conditions are obeyed or not?
+
+You are given two number first as A and second as B and check if both conditions (A<10 and A>B) are satisfied or not with the help of operators.</P>
+<pre text
+             const Is_Valid = (a,b) => {
+                    return a<10 && a>b;
+                      
+                    };
+                </pre>
+            
+<p>3. Check the conditons:You are given two numbers A and B. You need to do the following checks:
+
+if both are divisible by 10 console true.
+if both are not divisible by 10 console false.
+if one of them only is divisible by 10 console true.</p>
+<pre text
+                const Check = (A, B) => 
+                {
+                    if(A%10===0 && B%10===0){
+                        return "true";
+                        }
+                        else if(A%10===0 || B%10===0){
+                        return "true";
+                        }
+                        else{
+                        return "false";
+                    }
+                    
+                };
+            </pre>
+<p>4. Find the first digit of a 4 digit number: You are provided a four digit number N only. Your task is to print out the first digit of that number.</p>
+
+      <pre text
+                const First_Digit = (n) => {
+                    var a=n/1000;
+                    var b= parseInt(a);
+                    return b;
+                  };
+            </pre>
+<p>5. Find the last digit of a 4 digit number: You are provided a four digit number N only. Your task is to print out the last digit of that number.</p>
+
+    <pre text
+                const Last_Digit = (n) => {
+                    var a=n%10;
+                   var b=parseInt(a);
+                    return b;
+                 };
+            </pre>
+<p>6. Find the remainder: You are provided with two numbers A and B where A as divisor and B as dividend.Your task is find the remainder.</p>
+
+      <pre text
+                const Find_the_remainder = (a,b) => {
+                    var rem=b%a;
+                    return rem;
+                };
+            </pre>
+<p>7. Multipy two Numbers: You are provided with two numbers A and B. Your task is to multiply these two numbers.</p>
+
+   <pre text
+                const Multiply_two_number = (a,b) => {
+                    var product=a*b;
+                    return product;
+                };
+            </pre>
+<P>8. Marks Calculator: Shyam has got his marks in three subjects as A,B and C (out of 100).Write a program to calculate his total marks and his average.</p>
+
+    <pre text
+                const Sum = (A, B, C) => 
+                {
+                    var total= A+B+C;
+                    return total;
+                };
+
+                const Average = (A, B, C) => 
+                {
+                    var parcent = (A+B+C)/3;
+                    return parcent;
+                };
+            </pre>
